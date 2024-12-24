@@ -1,0 +1,14 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.configureOnOpen": true,
+    "cmake.configureArgs": ["-DCMAKE_C_COMPILER=gcc", "-DCMAKE_CXX_COMPILER=g++"],
+    "cmake.generator": "Ninja",
+    "files.associations": {
+        "any": "cpp",
+        "complex": "cpp"
+    },
+    "C_Cpp.default.includePath": [
+        "./SFML/include"
+    ],
+    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+}
